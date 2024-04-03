@@ -134,19 +134,22 @@ a {
 }
 
 .projects-content .project-item:nth-child(2),
-.projects-content .project-item:nth-child(4) {
+.projects-content .project-item:nth-child(4),
+.projects-content .project-item:nth-child(6) {
   justify-content: flex-end;
   text-align: right;
 }
 
 .projects-content .project-item:nth-child(2) > .project-item-image,
-.projects-content .project-item:nth-child(4) > .project-item-image {
+.projects-content .project-item:nth-child(4) > .project-item-image,
+.projects-content .project-item:nth-child(6) > .project-item-image {
   order: 2;
   margin-left: 50px;
 }
 
 .projects-content .project-item:nth-child(2) > .project-text,
-.projects-content .project-item:nth-child(4) > .project-text {
+.projects-content .project-item:nth-child(4) > .project-text,
+.projects-content .project-item:nth-child(6) > .project-text {
   order: 1;
 }
 
@@ -177,9 +180,17 @@ a {
   background: url(./images/projeto3.png);
 }
 
-/* .project-item-4 {
-  background: url(./images/weather_.jpeg);
-} */
+.project-item-4 {
+  background: url(./images/clock.jpeg);
+}
+
+.project-item-5 {
+  background: url(./images/form.jpeg);
+}
+
+.project-item-6 {
+  background: url(./images/calculadora2.jpeg);
+}
 
 .project-text {
   margin-left: 50px;

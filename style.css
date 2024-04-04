@@ -192,6 +192,10 @@ a {
   background: url(./images/calculadora2.jpeg);
 }
 
+.project-item-7 {
+  background: url(./images/jogo-da-velha.jpeg);
+}
+
 .project-text {
   margin-left: 50px;
   max-width: 600px;
